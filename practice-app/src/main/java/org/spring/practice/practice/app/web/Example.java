@@ -16,6 +16,6 @@ public class Example {
     @RequestMapping("/")
     String sayHello() {
         System.out.println("routed!!");
-        return helloService.getName();
+        return "My First app Deployed to cloud";
     }
 }
